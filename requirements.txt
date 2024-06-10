@@ -1,0 +1,9 @@
+tqdm
+beautifulsoup4
+requests
+python-dotenv
+pyyaml
+datasets
+huggingface_hub
+pandas
+pillow

@@ -1,0 +1,15 @@
+name: Food102Crawl
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - tqdm
+  - pip:
+      - beautifulsoup4
+      - python-dotenv
+      - pyyaml
+      - datasets
+      - huggingface_hub
+      - pandas
+      - pillow
