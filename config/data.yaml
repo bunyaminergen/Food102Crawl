@@ -1,16 +1,13 @@
 unsplash:
   base_url: "https://api.unsplash.com/search/photos"
-  count: 100
-  image_base_path: ".data/images"
-  metadata_path: ".data"
+
+pexels:
+  base_url: "https://api.pexels.com/v1/search"
+
+image_base_path: ".data/images"
+metadata_path: ".data"
+
 queries:
-  - "ananas"
-  - "baklava"
-  - "pizza"
   - "sushi"
-  - "pasta"
-  - "burger"
-  - "salad"
-  - "tacos"
-  - "ramen"
-  - "steak"
+  - "pizza"
+  - "bread"
