@@ -51,7 +51,7 @@ class Download:
 
     def parse_sources(self, sources):
         if sources == 'all':
-            return ['unsplash', 'pexels', 'pixabay', 'openverse', 'flickr', 'picsum']
+            return ['unsplash', 'pexels', 'pixabay', 'openverse', 'flickr']
         elif isinstance(sources, str):
             return [sources]
         elif isinstance(sources, list):
@@ -292,42 +292,6 @@ class Download:
                 print(f"Other error occurred on Flickr: {err}")
                 break
 
-    def picsum_download(self, folder, query, per_source_count):
-        base_url = "https://picsum.photos/v2/list"
-        page = 1
-        downloaded = 0
-
-        while downloaded < per_source_count:
-            url = f"{base_url}?page={page}&limit=30"
-            try:
-                response = requests.get(url)
-                response.raise_for_status()
-                data = response.json()
-                for idx, image in enumerate(data):
-                    if downloaded >= per_source_count:
-                        break
-                    img_url = f"https://picsum.photos/id/{image['id']}/500/500"
-                    image_name = f'{query}_{len(self.metadata_list) + 1}.jpg'
-                    description = image.get('author') or 'No description'
-
-                    self.download_image(img_url, folder, image_name)
-                    metadata = {
-                        "image": os.path.join(folder, image_name),
-                        "text": description,
-                        "image_url": img_url
-                    }
-                    self.metadata_list.append(metadata)
-                    downloaded += 1
-
-                page += 1
-                time.sleep(7)
-            except requests.exceptions.HTTPError as http_err:
-                print(f"HTTP error occurred on Lorem Picsum: {http_err}")
-                break
-            except Exception as err:
-                print(f"Other error occurred on Lorem Picsum: {err}")
-                break
-
     def save_metadata(self):
         metadata_path = self.config['metadata_path']
         with open(os.path.join(metadata_path, 'metadata.json'), 'w', encoding='utf-8') as json_file:
@@ -363,8 +327,6 @@ class Download:
                             self.openverse_download(folder, query, per_source_count - downloaded)
                         elif source == 'flickr':
                             self.flickr_download(folder, query, per_source_count - downloaded)
-                        elif source == 'picsum':
-                            self.picsum_download(folder, query, per_source_count - downloaded)
                     except Exception as e:
                         print(f"Error occurred for source {source} with query {query}: {e}")
                     downloaded += len(self.metadata_list) - initial_count

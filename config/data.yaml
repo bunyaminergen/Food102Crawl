@@ -13,7 +13,7 @@ openverse:
 flickr:
   base_url: "https://api.flickr.com/services/rest/"
 
-wikipedia:
+wikimedia:
   base_url: "https://commons.wikimedia.org/w/api.php"
 
 image_base_path: ".data/images"

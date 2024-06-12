@@ -24,6 +24,8 @@
 - [Rawpixel](https://www.rawpixel.com/)
 - [freestocks.org](https://freestocks.org/)
 - [NegativeSpace](https://negativespace.co/)
+- [Freepik](https://librestock.com/)
+- [Picsum](https://picsum.photos/images)
 
 ### Unsplash
 - [Unsplash](https://unsplash.com/)
@@ -44,14 +46,6 @@
 ### Flicr
 - [Flicr](https://www.flickr.com/services/api/)
 - [Flicr API Documentation](https://www.flickr.com/services/api/misc.api_keys.html)
-
-### Freepik
-- [Freepik](https://librestock.com/)
-- [Freepik API Documentation](https://www.flickr.com/services/api/misc.api_keys.html)
-
-
-### Picsum
-- [Picsum](https://picsum.photos/images)
 
 ### Wikipedia
 - [Wikipedia](https://commons.wikimedia.org/wiki/Main_Page)
