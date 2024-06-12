@@ -45,6 +45,10 @@
 - [Flicr](https://www.flickr.com/services/api/)
 - [Flicr API Documentation](https://www.flickr.com/services/api/misc.api_keys.html)
 
+### Freepik
+- [Freepik](https://librestock.com/)
+- [Freepik API Documentation](https://www.flickr.com/services/api/misc.api_keys.html)
+
 ### Wikipedia
 - [Wikipedia](https://commons.wikimedia.org/wiki/Main_Page)
 - [Wikipedia API Documentation](https://commons.wikimedia.org/w/api.php)
