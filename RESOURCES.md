@@ -33,6 +33,24 @@
 - [Pexels](https://www.pexels.com/)
 - [Pexels Documentation](https://www.pexels.com/api/documentation/)
 
+### Pixabay
+- [Pixabay](https://pixabay.com/)
+- [Pixabay API Documentation](https://pixabay.com/api/docs/)
+
+### Openverse
+- [Openverse](https://openverse.org/en-za)
+- [Openverse API Documentation](https://api.openverse.org/v1/)
+
+### Flicr
+- [Flicr](https://www.flickr.com/services/api/)
+- [Flicr API Documentation](https://www.flickr.com/services/api/misc.api_keys.html)
+
+### Wikipedia
+- [Wikipedia](https://commons.wikimedia.org/wiki/Main_Page)
+- [Wikipedia API Documentation](https://commons.wikimedia.org/w/api.php)
+- [Wikimedia API Documentation](https://api.wikimedia.org/wiki/Getting_started_with_Wikimedia_APIs)
+
+
 ---
 
 ## Notebooks

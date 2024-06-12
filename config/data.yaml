@@ -4,6 +4,18 @@ unsplash:
 pexels:
   base_url: "https://api.pexels.com/v1/search"
 
+pixabay:
+  base_url: "https://pixabay.com/api/"
+
+openverse:
+  base_url: "https://api.openverse.engineering/v1/images/"
+
+flickr:
+  base_url: "https://api.flickr.com/services/rest/"
+
+wikipedia:
+  base_url: "https://commons.wikimedia.org/w/api.php"
+
 image_base_path: ".data/images"
 metadata_path: ".data"
 
