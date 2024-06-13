@@ -64,6 +64,10 @@
 - [COYO-700M: Image-Text Pair Dataset](https://github.com/kakaobrain/coyo-dataset/blob/main/README.md) 
 - [COCO](https://cocodataset.org/#home) 
 
+## Free Proxy
+- [spys](https://spys.one/en/https-ssl-proxy/)
+- [sslproxies](https://www.sslproxies.org/)
+
 ---
 
 ## Wikipedia
@@ -93,6 +97,7 @@
 
 ## Paper
 - [ ]()
+
 
 ---
 
